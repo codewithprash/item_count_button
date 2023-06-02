@@ -17,6 +17,8 @@ Item Count Number Button is a Flutter package that allows you to easily implemen
 
 ## features
 
+![Screenshot_1685721699](https://github.com/codewithprash/item_count_number_button/assets/87913082/2a9112d2-0984-4a1c-a477-f226919f553d)
+
 - Increment and decrement buttons for adjusting the item count.
 - Define the minimum and maximum values for the item count.
 - Specify the number of decimal places for the displayed count.
