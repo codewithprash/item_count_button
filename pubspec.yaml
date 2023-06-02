@@ -1,5 +1,5 @@
 name: item_count_number_button
-description: Item Count Number Button is a Flutter package that allows you to easily implement a customizable item count widget with increment and decrement buttons. This widget is particularly useful in scenarios where you need to manage the quantity of items, such as in a shopping cart or inventory management system.
+description: This widget is particularly useful in scenarios where you need to manage the quantity of items, such as in a shopping cart or inventory management system.
 version: 1.9.2
 homepage: https://github.com/codewithprash/item_count_button
 
