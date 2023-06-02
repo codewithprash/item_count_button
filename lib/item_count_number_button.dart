@@ -78,7 +78,7 @@ class ItemCount extends StatelessWidget {
               height: buttonSizeHeight,
               child: Container(
                 decoration: ShapeDecoration(
-                    color: color ?? themeData.secondaryHeaderColor,
+                    color: color ?? themeData.primaryColor,
                     shape: const RoundedRectangleBorder(
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(10),
@@ -111,7 +111,7 @@ class ItemCount extends StatelessWidget {
               height: buttonSizeHeight,
               child: Container(
                 decoration: ShapeDecoration(
-                    color: color ?? themeData.secondaryHeaderColor,
+                    color: color ?? themeData.primaryColor,
                     shape: const RoundedRectangleBorder(
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(0),
