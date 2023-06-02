@@ -1,6 +1,6 @@
 name: item_count_number_button
-description: item count number button.
-version: 1.9.0
+description: With Item Count Number Button, you can effortlessly integrate an intuitive item count functionality into your Flutter application, enhancing the user experience and making it easier for users to manage quantities.
+version: 1.9.2
 homepage: https://github.com/codewithprash/item_count_number_button
 
 environment:
