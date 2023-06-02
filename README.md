@@ -15,7 +15,7 @@ and the Flutter guide for
 
 ![Screenshot_1685721699](https://github.com/codewithprash/item_count_number_button/assets/87913082/2a9112d2-0984-4a1c-a477-f226919f553d)
 
-Item Count Number Button is a Flutter package that allows you to easily implement a customizable item count widget with increment and decrement buttons. This widget is particularly useful in scenarios where you need to manage the quantity of items, such as in a shopping cart or inventory management system.
+TODO: Item Count Number Button is a Flutter package that allows you to easily implement a customizable item count widget with increment and decrement buttons. This widget is particularly useful in scenarios where you need to manage the quantity of items, such as in a shopping cart or inventory management system.
 
 ## features
 
@@ -29,11 +29,11 @@ Item Count Number Button is a Flutter package that allows you to easily implemen
 - Smooth animations for a visually appealing user experience.
 
 
-With Item Count Number Button, you can effortlessly integrate an intuitive item count functionality into your Flutter application, enhancing the user experience and making it easier for users to manage quantities.
+TODO: With Item Count Number Button, you can effortlessly integrate an intuitive item count functionality into your Flutter application, enhancing the user experience and making it easier for users to manage quantities.
 
 ## Installation
 
-Add item_count_number_button as a dependency in your pubspec.yaml file:
+TODO: Add item_count_number_button as a dependency in your pubspec.yaml file:
 
 ```yaml
 dependencies:
@@ -43,13 +43,13 @@ dependencies:
 
 ## Usage
 
-Import the package in your Dart file:
+TODO: Import the package in your Dart file:
 
 ```dart
 import 'package:item_count_number_button/item_count_number_button.dart';
 ```
 
-Use the ItemCount widget in your Flutter app:
+TODO: Use the ItemCount widget in your Flutter app:
 
 ```dart
 ItemCount(
@@ -65,7 +65,7 @@ ItemCount(
 ```
 ## Widget Properties
 
-The ItemCount widget accepts the following properties:
+TODO: The ItemCount widget accepts the following properties:
 
 - initialValue (required): The initial value of the counter.
 - minValue (required): The minimum value the user can pick.
@@ -80,16 +80,16 @@ The ItemCount widget accepts the following properties:
 
 ## Example
 
-You can find a complete example in the example directory of this package.
+TODO: You can find a complete example in the example directory of this package.
 
 ## License
 
-This Flutter package is released under the MIT License.
+TODO: This Flutter package is released under the MIT License.
 
 
 ## Additional information
 
-Welcome contributions to Item Count Number Button! If you encounter any issues, have suggestions for improvements, or would like to add new features, please feel free to open an issue or submit a pull request. Your contributions can help make this package even better.
+TODO: Welcome contributions to Item Count Number Button! If you encounter any issues, have suggestions for improvements, or would like to add new features, please feel free to open an issue or submit a pull request. Your contributions can help make this package even better.
 <!-- ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
