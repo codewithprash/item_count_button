@@ -1,6 +1,6 @@
 name: item_count_number_button
 description: This widget is particularly useful in scenarios where you need to manage the quantity of items, such as in a shopping cart or inventory management system.
-version: 1.9.2
+version: 1.9.3
 homepage: https://github.com/codewithprash/item_count_button
 
 environment:
