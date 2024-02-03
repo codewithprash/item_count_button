@@ -89,7 +89,7 @@ class ItemCount extends StatelessWidget {
                             bottomLeft: Radius.circular(10),
                             topRight: Radius.circular(0),
                             bottomRight: Radius.circular(0)))),
-                child: const Center(
+                child:  Center(
                   child: Text(
                     '-',
                     style: TextStyle(color:signColor?? Colors.black),
@@ -120,7 +120,7 @@ class ItemCount extends StatelessWidget {
                             bottomLeft: Radius.circular(0),
                             topRight: Radius.circular(10),
                             bottomRight: Radius.circular(10)))),
-                child: const Center(
+                child:  Center(
                   child: Text(
                     '+',
                     style: TextStyle(color: signColor?? Colors.black),
