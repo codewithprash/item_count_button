@@ -16,6 +16,7 @@ class ItemCount extends StatelessWidget {
     required this.onChanged,
     required this.decimalPlaces,
     this.color,
+    this.signColor,
     this.textStyle,
     this.step = 1,
     this.buttonSizeWidth = 30,
@@ -46,6 +47,9 @@ class ItemCount extends StatelessWidget {
 
   /// text syle
   TextStyle? textStyle;
+
+  //sign colors
+  Color? signColor;
 
   final double buttonSizeWidth, buttonSizeHeight;
 
@@ -88,7 +92,7 @@ class ItemCount extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     '-',
-                    style: TextStyle(color: Colors.black),
+                    style: TextStyle(color:signColor?? Colors.black),
                   ),
                 ),
               ),
@@ -98,9 +102,7 @@ class ItemCount extends StatelessWidget {
             padding: const EdgeInsets.all(4.0),
             child: Text(
                 '${num.parse((selectedValue).toStringAsFixed(decimalPlaces))}',
-                style: textStyle == null
-                    ? textStyle
-                    : const TextStyle(
+                style: textStyle ?? const TextStyle(
                         fontSize: 20.0,
                       )),
           ),
@@ -121,7 +123,7 @@ class ItemCount extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     '+',
-                    style: TextStyle(color: Colors.black),
+                    style: TextStyle(color: signColor?? Colors.black),
                   ),
                 ),
               ),
