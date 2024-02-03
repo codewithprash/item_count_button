@@ -48,7 +48,7 @@ class ItemCount extends StatelessWidget {
   /// text syle
   TextStyle? textStyle;
 
-  //sign colors
+  ///sign colors
   Color? signColor;
 
   final double buttonSizeWidth, buttonSizeHeight;
@@ -89,7 +89,7 @@ class ItemCount extends StatelessWidget {
                             bottomLeft: Radius.circular(10),
                             topRight: Radius.circular(0),
                             bottomRight: Radius.circular(0)))),
-                child:  Center(
+                child: Center(
                   child: Text(
                     '-',
                     style: TextStyle(color:signColor?? Colors.black),
@@ -120,7 +120,7 @@ class ItemCount extends StatelessWidget {
                             bottomLeft: Radius.circular(0),
                             topRight: Radius.circular(10),
                             bottomRight: Radius.circular(10)))),
-                child:  Center(
+                child: Center(
                   child: Text(
                     '+',
                     style: TextStyle(color: signColor?? Colors.black),
